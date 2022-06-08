@@ -1,0 +1,106 @@
+.projects-container {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projects-container img {
+    border-radius: 8px;
+}
+
+.project-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border: 6px outset #ffffff;
+    transition: 0.5s;
+    
+    
+}
+
+.project-card:hover {
+    transition: 0.5s;
+    box-shadow: 20px 20px rgba(255, 255, 255, 0.26);
+    transform: translateY(-5px);
+    cursor: pointer;
+    
+}
+
+.project-card img {
+    height: 60%;
+}
+
+.project-card-list {
+    display: flex;
+}
+
+.project-card h2 {
+    letter-spacing: 2px;
+}
+
+.project-card p {
+    letter-spacing: 2px;
+}
+
+#projects-title {
+    padding-bottom: 10vh;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+    align-self: center;
+    letter-spacing: 8px;
+    font-size: 40px;
+
+}
+
+@keyframes glow {
+    from {text-shadow: none;}
+    to {text-shadow: 0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #fff,
+        0 0 80px #fff,
+        0 0 120px #fff,
+        0 0 16px #fff;}
+}
+
+#projects-title > :nth-child(1) {
+    animation: glow 3s infinite alternate;
+    animation-delay: 1s;
+}
+#projects-title > :nth-child(2) {
+    animation: glow 3s infinite alternate;
+    animation-delay: 1.5s;
+}
+#projects-title > :nth-child(3) {
+    animation: glow 3s infinite alternate;
+    animation-delay: 2s;
+}
+#projects-title > :nth-child(4) {
+    animation: glow 3s infinite alternate;
+    animation-delay: 2.5s;
+}
+#projects-title > :nth-child(5) {
+    animation: glow 3s infinite alternate;
+    animation-delay: 3s;
+}
+#projects-title > :nth-child(6) {
+    animation: glow 3s infinite alternate;
+    animation-delay: 3.5s;
+}
+#projects-title > :nth-child(7) {
+    animation: glow 3s infinite alternate;
+    animation-delay: 4s;
+}
+#projects-title > :nth-child(8) {
+    animation: glow 3s infinite alternate;
+    animation-delay: 4.5s;
+}

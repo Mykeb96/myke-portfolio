@@ -1,0 +1,75 @@
+#skills-title{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+    align-self: center;
+    letter-spacing: 8px;
+    font-size: 40px;
+
+}
+
+#skill-list {
+    width: 60vw;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#skill-list p {
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 15px;
+    letter-spacing: 4px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+
+#skill-list p:hover {
+    transition: 0.5s;
+    cursor: crosshair;
+    background: rgb(255, 255, 255);
+    color: black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+@keyframes glow {
+    from {text-shadow: none;}
+    to {text-shadow: 0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #fff,
+        0 0 80px #fff,
+        0 0 120px #fff,
+        0 0 16px #fff;}
+}
+
+#skills-title > :nth-child(1) {
+    animation: glow 3s infinite alternate;
+    animation-delay: 1s;
+}
+#skills-title > :nth-child(2) {
+    animation: glow 3s infinite alternate;
+    animation-delay: 1.5s;
+}
+#skills-title > :nth-child(3) {
+    animation: glow 3s infinite alternate;
+    animation-delay: 2s;
+}
+#skills-title > :nth-child(4) {
+    animation: glow 3s infinite alternate;
+    animation-delay: 2.5s;
+}
+#skills-title > :nth-child(5) {
+    animation: glow 3s infinite alternate;
+    animation-delay: 3s;
+}
+#skills-title > :nth-child(6) {
+    animation: glow 3s infinite alternate;
+    animation-delay: 3.5s;
+}

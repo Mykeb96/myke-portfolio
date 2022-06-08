@@ -1,0 +1,41 @@
+.modal-background {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.89);
+    position: fixed;
+    display: flex;
+
+
+}
+
+.modal {
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    width: fit-content;
+
+    border: 6px outset #ffffff;
+    z-index: 2;
+    background-color: black;
+    background: linear-gradient(180deg, rgb(22, 22, 22) 50%, rgb(85, 85, 85) 100%);
+    padding: 15px 60px 15px 60px;
+    margin: auto;
+}
+
+.modal img {
+    height: 75%;
+    border-radius: 14px;
+    box-shadow: 20px 20px rgba(221, 221, 221, 0.26);
+    margin-right: 100px;
+}
+
+.modal p {
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.modal a {
+    font-style: italic;
+}

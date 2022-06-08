@@ -1,0 +1,80 @@
+#terminal {
+    background: rgb(17, 17, 17);
+    height: 40vh;
+    width: fit-content;
+    padding: 0px 0px 5px 0px;
+    border-radius: 0px;
+    /* border: 1px solid white; */
+ }
+ 
+ #terminal p {
+     letter-spacing: 1px;
+     white-space: nowrap;
+     padding-right: 2vw;
+ }
+ 
+ #terminal-top-bar {
+     display: flex;
+     align-items: center;
+     /* justify-content: center; */
+     justify-content: space-around;
+     background: rgb(8, 8, 8)
+ }
+ 
+ .top-bar-icon{
+     width: 20px;
+     padding: 10px;
+     height: 20px;
+     color: white;
+ 
+ }
+ 
+ .top-bar-icon:hover {
+     cursor: pointer;
+     background: grey;
+     transition: 0.5s;
+ }
+ 
+ #terminal-text-header {
+     display: flex;
+ }
+ 
+ #terminal-text-header > :nth-child(1) {
+     color: rgb(0, 255, 0);
+     display: contents;
+ }
+ 
+ #terminal-text-header > :nth-child(2) {
+     color: yellow;
+     display: contents;
+ }
+ 
+ #terminal-text-header > :nth-child(3) {
+     color: cyan;
+     display: contents;
+ }
+ 
+ #terminal-text p {
+     letter-spacing: 3px;
+     font-size: 15px;
+ }
+ 
+ #terminal-typing-bar {
+     display: flex;
+     flex-direction: row;
+ }
+ 
+ @keyframes testingAnimation {
+     from {color: rgba(0, 0, 0, 0);}
+     to {color:rgb(255, 255, 255);}
+ }
+ 
+ #terminal-typing-bar > :nth-child(2) {
+     animation: testingAnimation 0.5s infinite alternate;
+ }
+ 
+ 
+ 
+ #terminal-typing-bar p {
+     display: contents;
+ }
