@@ -104,3 +104,14 @@
     animation: glow 3s infinite alternate;
     animation-delay: 4.5s;
 }
+
+@media (max-width: 1282px) {
+    .project-card-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-card {
+        margin-bottom: 50px;
+    }
+}
